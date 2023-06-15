@@ -1,0 +1,115 @@
+@charset "ISO-8859-1";
+.head{
+    background-color: black;
+    opacity: 70%;
+    font-size: 1vw;
+    height: 100px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(to top, #283c86, #78ffd6) fixed;
+}
+
+#logo{
+    float: left;
+}
+
+#login{
+    float: right;
+}
+
+#note{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 1000;
+    color: white;
+}
+
+
+.container {
+    position: absolute;
+    height: auto;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1vw;
+}
+
+#l1{
+  font-size: large;
+}
+
+#l2{
+  font-size: large;
+}
+
+footer{
+    background-color: black;
+    opacity: 70%;
+    height: 220px;
+    padding: 8px;
+    font-size: 1vw;
+    top: 250px;
+}
+
+.first{
+    color: white;
+    float: left;
+}
+
+.second{
+    color: white;
+    float: none;
+    margin-left: 500px;
+    text-decoration: none;
+}
+
+.third{
+    color: white;
+    float: right;
+}
+
+h5{
+  font-size: 1vw;
+}
+
+.foot{
+  text-decoration: none;
+  color: white;
+}
+
+.fa{
+  padding: 10px;
+  font-size: 30px;
+  width: 23px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover{
+  opacity: 0.7s;
+}
+
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter{
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: purple;
+  color: white;
+}

@@ -1,0 +1,167 @@
+@charset "UTF-8";
+.head{
+    background-color: black;
+    opacity: 70%;
+    font-size: 1vw;
+    height: 100px;
+}
+
+#logo{
+    float: left;
+}
+
+#login{
+    float: right;
+}
+
+#note{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 1000;
+    color: white;
+}
+
+
+.container {
+    position: absolute;
+    height: auto;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1vw;
+}
+
+#l1{
+  font-size: large;
+}
+
+#l2{
+  font-size: large;
+}
+body{
+    margin-top:60px;
+    background-color: #359dca;
+    
+}
+ .user-avatar{
+ opacity:100%;
+ }
+form{
+	
+   
+	margin-right:100px;
+	margin-top: 100px;
+	height:1300px;
+	width: 400px;
+	padding:200px;
+	background-color:#afb7c2;
+	opacity:1.0;
+	font-size:14px;
+	font-family:Verdana;
+	color:#000000;
+	margin-left:330px;
+	margin-bottom: 100px;
+	opacity: 0.65;
+}
+
+
+.cool{
+	margin-left: 100px;
+}
+/*drop down*/
+
+select{
+  border:none;
+  padding: 10px 20px;
+  border-radius:5px;
+}
+
+select:focus{
+  outline:none;
+}
+
+
+btn btn-secondary{
+	  border:none;
+  padding: 10px 20px;
+  border-radius:5px;
+}
+
+
+btn btn-primary{
+		  border:none;
+  padding: 10px 20px;
+  border-radius:5px;
+  
+}
+
+
+/* header footer*/
+
+
+footer{
+    background-color: black;
+    opacity: 70%;
+    height: 220px;
+    padding: 8px;
+    font-size: 1vw;
+}
+
+.first{
+    color: white;
+    float: left;
+}
+
+.second{
+    color: white;
+    float: none;
+    margin-left: 500px;
+    text-decoration: none;
+}
+
+
+
+h5{
+  font-size: 1vw;
+}
+
+.foot{
+  text-decoration: none;
+  color: white;
+}
+
+.fa{
+  padding: 5px;
+  font-size: 30px;
+  width: 23px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover{
+  opacity: 0.7s;
+}
+
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter{
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: purple;
+  color: white;
+}
+ 

@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+.welcome{
+    background-color: #131649;
+  }
+  
+  .wel{
+    position: relative;
+    text-align: center;
+    top: 200px;
+    color: white;
+    font-weight: bolder;
+    font-size: 3vw;
+  }
+  
+  /*Neon button*/
+  .neondiv{
+      
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+    top: 300px;
+  }
+  
+  :root {
+  --clr-neon: 	#ac1b17;
+  --font-size: 3rem;
+  }
+  
+  *, 
+  *::after,
+  *::before {
+  box-sizing: border-box;
+  }
+  
+  .neon {
+    align-items: center;
+    font-size: var(--font-size);
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    border: var(--clr-neon) 0.125em solid;
+    padding: 0.25em 1em;
+    border-radius: 0.25em;
+    text-shadow: 
+    0 0 .20em #FFF7,
+    0 0 .30em var(--clr-neon);
+    box-shadow: 
+    inset 0 0 .5em var(--clr-neon),
+          0 0 .5em var(--clr-neon);
+  }
+  
+  .neon::before {
+  content: "";
+  position: absolute;
+  top: 140%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--clr-neon);
+  transform: 
+    perspective(0.2em)
+    rotateX(10deg) 
+    scale(1.3, 0.40);
+  filter: blur(0.5em);
+  opacity: 0.6;
+  pointer-events: none;
+  transition: opacity 100ms linear;
+  }
+  
+  .neon::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--clr-neon);
+  box-shadow: 0 0 2em var(--clr-neon);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 100ms linear;
+  }
+  
+  .neon:hover::after {
+  opacity: 1;
+  }
+  .neon:hover, .neon:focus {
+  color: black;
+  }
+  .neon:hover::before {
+  opacity: 0.8;
+  }
+  
+  /*head styling*/
+.head{
+    background-color: #000000;
+    opacity: 70%;
+    font-size: 1vw;
+    height: 100px;
+}
